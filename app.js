@@ -217,11 +217,11 @@ app.put('/api/students', (req, res) => {
 });
 
 app.get('/web/courses/create', (req, res) => {
-    res.sendFile(__dirname + "/courses_form.html")
+    res.sendFile(__dirname + "/course.html")
 })
 
 app.get('/web/students/create', (req, res) => {
-    res.sendFile(__dirname + "/student_form.html")
+    res.sendFile(__dirname + "/student.html")
 })
 
 app.get('/', (req, res) => {
